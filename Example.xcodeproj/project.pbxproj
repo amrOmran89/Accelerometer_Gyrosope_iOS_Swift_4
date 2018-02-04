@@ -10,7 +10,6 @@
 		28AD2F8A2027456500DAB46E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD2F892027456400DAB46E /* AppDelegate.swift */; };
 		28AD2F8C2027456500DAB46E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD2F8B2027456500DAB46E /* ViewController.swift */; };
 		28AD2F8F2027456500DAB46E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28AD2F8D2027456500DAB46E /* Main.storyboard */; };
-		28AD2F922027456500DAB46E /* Example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28AD2F902027456500DAB46E /* Example.xcdatamodeld */; };
 		28AD2F942027456500DAB46E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28AD2F932027456500DAB46E /* Assets.xcassets */; };
 		28AD2F972027456500DAB46E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28AD2F952027456500DAB46E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -20,7 +19,6 @@
 		28AD2F892027456400DAB46E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28AD2F8B2027456500DAB46E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		28AD2F8E2027456500DAB46E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		28AD2F912027456500DAB46E /* Example.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Example.xcdatamodel; sourceTree = "<group>"; };
 		28AD2F932027456500DAB46E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28AD2F962027456500DAB46E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28AD2F982027456500DAB46E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,7 +60,6 @@
 				28AD2F932027456500DAB46E /* Assets.xcassets */,
 				28AD2F952027456500DAB46E /* LaunchScreen.storyboard */,
 				28AD2F982027456500DAB46E /* Info.plist */,
-				28AD2F902027456500DAB46E /* Example.xcdatamodeld */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -140,7 +137,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD2F8C2027456500DAB46E /* ViewController.swift in Sources */,
-				28AD2F922027456500DAB46E /* Example.xcdatamodeld in Sources */,
 				28AD2F8A2027456500DAB46E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,7 +275,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GNPQC9C373;
+				DEVELOPMENT_TEAM = T5L87ZPM28;
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AmrOmran.Example;
@@ -294,7 +290,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GNPQC9C373;
+				DEVELOPMENT_TEAM = T5L87ZPM28;
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AmrOmran.Example;
@@ -326,19 +322,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		28AD2F902027456500DAB46E /* Example.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				28AD2F912027456500DAB46E /* Example.xcdatamodel */,
-			);
-			currentVersion = 28AD2F912027456500DAB46E /* Example.xcdatamodel */;
-			path = Example.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 28AD2F7E2027456400DAB46E /* Project object */;
 }
